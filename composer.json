@@ -1,0 +1,18 @@
+{
+    "name": "lordhexa/cms",
+    "license": "",
+    "authors": [
+        {
+            "name": "Ronny",
+            "email": "ronny@synatix-gmbh.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "cms\\app\\": "app/",
+            "cms\\config\\": "config/",
+            "cms\\templaes\\": "templates/"
+        }
+    }
+}
